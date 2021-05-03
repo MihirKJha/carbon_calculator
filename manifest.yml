@@ -1,0 +1,9 @@
+applications:
+- name: carbon_calculator
+  disk_quota: 256M
+  instances: 1
+  memory: 256M
+  path: /target/calculateCo2-1.jar
+  timeout: 120
+  routes:
+  - route: corp.com
